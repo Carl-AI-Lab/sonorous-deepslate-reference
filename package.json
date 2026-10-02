@@ -1,0 +1,16 @@
+{
+  "name": "sonorous-deepslate-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cited Sonorous Deepslate block roles, portal states, and Java Edition scope for Mielon's The Sift.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "pretest": "npm run build",
+    "test": "node --test tests/*.test.mjs",
+    "demo": "npm run build && node scripts/serve.mjs"
+  }
+}

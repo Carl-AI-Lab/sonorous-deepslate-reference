@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "title": "Sonorous Deepslate Reference",
+  "compiledAt": "2026-10-02",
+  "guideUrl": "https://minecraftthesift.com/mods/mielons-the-sift/sonorous-deepslate/",
+  "portalGuideUrl": "https://minecraftthesift.com/mods/mielons-the-sift/portal/",
+  "scope": {
+    "block": "Sonorous Deepslate",
+    "project": "Mielon's The Sift",
+    "author": "Mielon",
+    "edition": "Java Edition",
+    "curseForgeProjectId": 1691925,
+    "versionScope": "Author project instructions checked on 2026-10-01; confirm interactions against your installed release.",
+    "sourceIds": ["curseforge-mielon", "modrinth-mielon"]
+  },
+  "sources": [
+    {
+      "id": "curseforge-mielon",
+      "title": "Mielon's The Sift on CurseForge",
+      "author": "Mielon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mielons-the-sift",
+      "kind": "author-project-page",
+      "publishedAt": null,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "modrinth-mielon",
+      "title": "Mielon's The Sift on Modrinth",
+      "author": "Mielon",
+      "url": "https://modrinth.com/mod/mielons-the-sift",
+      "kind": "author-project-page",
+      "publishedAt": null,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "sift-block-guide",
+      "title": "Sonorous Deepslate in Minecraft: Location & Note Mode",
+      "author": "minecraftthesift.com",
+      "url": "https://minecraftthesift.com/mods/mielons-the-sift/sonorous-deepslate/",
+      "kind": "editorial-reference",
+      "publishedAt": "2026-10-01",
+      "checkedAt": "2026-10-01"
+    }
+  ],
+  "facts": [
+    {
+      "id": "location",
+      "label": "Find the bases",
+      "text": "Eight blocks sit in front of the Reinforced Deepslate frame at an Ancient City center.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "awakening",
+      "label": "Awaken the setup",
+      "text": "A Goat Horn played at the Ancient City center brings out a Singer. Its song awakens the bases.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "instruments",
+      "label": "Prepare the instruments",
+      "text": "Place Note Blocks above the awakened Sonorous Deepslate bases.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "note-mode",
+      "label": "Use Note mode",
+      "text": "In Note mode, the supporting block lets the Note Block above it use eight Sift notes.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "instrument-controls",
+      "label": "Tune and play",
+      "text": "Right-click the Note Block to change its note; left-click the Note Block to play it.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "opening-feedback",
+      "label": "Recognize the completed performance",
+      "text": "After a correct performance, the bases replay the melody, beams activate, and the portal begins opening.",
+      "sourceIds": ["curseforge-mielon"]
+    },
+    {
+      "id": "advancements",
+      "label": "Check your release",
+      "text": "The author points players to the mod's advancements for explanations of its mechanics.",
+      "sourceIds": ["modrinth-mielon"]
+    },
+    {
+      "id": "project-scope",
+      "label": "Match the project",
+      "text": "These block mechanics belong to Mielon's The Sift, whose author listing covers Minecraft Java Edition.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon"]
+    }
+  ],
+  "blockRoles": [
+    {
+      "name": "Sonorous Deepslate",
+      "role": "Awakened base; later replays the melody",
+      "playerAction": "Identify the base and its readiness",
+      "interpretation": "editorial-explanation",
+      "sourceIds": ["curseforge-mielon", "sift-block-guide"]
+    },
+    {
+      "name": "Note Block",
+      "role": "Instrument placed above the base",
+      "playerAction": "Tune and play the notes",
+      "interpretation": "editorial-explanation",
+      "sourceIds": ["curseforge-mielon", "sift-block-guide"]
+    },
+    {
+      "name": "Reinforced Deepslate",
+      "role": "Frame behind the setup",
+      "playerAction": "Use it as the entrance landmark",
+      "interpretation": "editorial-explanation",
+      "sourceIds": ["curseforge-mielon", "sift-block-guide"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "command",
+      "question": "Can I get Sonorous Deepslate with a command?",
+      "answer": "The checked author instructions don't provide an item ID or /give command. For the portal, use the Ancient City setup; for a separate build, check your installed release's block information.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon", "sift-block-guide"]
+    },
+    {
+      "id": "bedrock",
+      "question": "Is Sonorous Deepslate available on Bedrock?",
+      "answer": "Mielon's author listing covers Java Edition and lists no Bedrock release. That scope applies to this project.",
+      "sourceIds": ["modrinth-mielon"]
+    },
+    {
+      "id": "mods",
+      "question": "Which mod adds Sonorous Deepslate?",
+      "answer": "Mielon's The Sift. The block isn't part of vanilla Minecraft.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon", "sift-block-guide"]
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "item-id",
+      "label": "Registered item ID",
+      "value": null,
+      "reason": "Not supplied in the checked author instructions.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon"]
+    },
+    {
+      "id": "give-command",
+      "label": "Release-specific /give command",
+      "value": null,
+      "reason": "Requires a verified item ID from the installed release.",
+      "sourceIds": ["sift-block-guide"]
+    },
+    {
+      "id": "crafting-recipe",
+      "label": "Crafting recipe",
+      "value": null,
+      "reason": "Not supplied in the checked author instructions.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon"]
+    },
+    {
+      "id": "mining-drop",
+      "label": "Mining drop",
+      "value": null,
+      "reason": "Not supplied in the checked author instructions.",
+      "sourceIds": ["curseforge-mielon", "modrinth-mielon"]
+    },
+    {
+      "id": "note-mode-control",
+      "label": "Control for switching the base into Note mode",
+      "value": null,
+      "reason": "The author describes Note mode but does not specify its switching control.",
+      "sourceIds": ["curseforge-mielon"]
+    }
+  ]
+}
